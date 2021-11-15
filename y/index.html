@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+    <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Black Browser</title>
+	<meta name="description" content="Black Browser is a Simple, Lite weight, Fast, Free android web browser. A browser that puts privacy first.">
+	<meta name="keywords" content="privacy browser, browser, Browser,Black Browser, light weight, android app">
+	<meta name="author" content="Sai Gopal">
+	
+	 <script type="application/ld+json">
+    {
+		"@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "Black Browser",
+	  "operatingSystem": "ANDROID",
+	  "url": "https://play.google.com/store/apps/details?id=com.saigopal.browser",
+	  "logo": "https://firebasestorage.googleapis.com/v0/b/blackbroswser-androidapp.appspot.com/o/0.png?alt=media&token=a09167ab-938e-4848-b2c7-486dffe8a8ff",
+      "applicationCategory": "BrowserApplication",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.4",
+        "ratingCount": "87"
+      }
+
+    }
+    
+    </script>
+
+	<link rel="icon" href="dist/images/0.jpg" type="image/x-icon">
+	<meta name="google-site-verification" content="A-IDj8mI4fMbttGAPNDA27BJfQ9SedPDXLUqsMdWquY" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" 
+	integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+	<script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-app.js"></script>
+	<script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
+     <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-database.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Heebo:400,700|Oxygen:700" rel="stylesheet">
+    <link rel="stylesheet" href="dist/css/style.css">
+	<script src="https://unpkg.com/scrollreveal@4.0.5/dist/scrollreveal.min.js"></script>
+	<script src="/__/firebase/8.0.0/firebase-app.js"></script>
+	<script src="/__/firebase/8.0.0/firebase-analytics.js"></script>
+	<script src="/__/firebase/init.js"></script>
+
+	<style>
+		#share-buttons img {
+        width: 50px;
+        padding: 5px;
+        border: 0;
+        box-shadow: 0;
+        display: inline;
+    }
+	
+
+	</style>
+
+</head>
+<body class="is-boxed has-animations">
+    <div class="body-wrap boxed-container">
+        <header class="site-header text-light">
+            <div class="container">
+                <div class="site-header-inner">
+                    <div class="brand header-brand">
+                        <h1 class="m-0">
+                            <a href="#">
+								<img class="header-logo-image" src="dist/images/logo.svg" alt="Logo">
+                            </a>
+                        </h1>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <section class="hero text-center text-light">
+				<div class="hero-bg"></div>
+				<div class="hero-particles-container">
+					<canvas id="hero-particles"></canvas>
+				</div>
+                <div class="container-sm">
+                    <div class="hero-inner">
+						<div class="hero-copy">
+
+	                        <h1 class="hero-title mt-0">Black Browser</h1>
+	                        <p class="hero-paragraph">Black Browser is a Simple, Lite weight, Fast, Free android 
+								web browser. A browser that puts privacy first.</p>
+	                        <div class="hero-cta">
+								<a class="button button-primary button-wide-mobile" 
+								href="https://play.google.com/store/apps/details?id=com.saigopal.browser">
+								<i class="fas fa-google-play"></i>
+								Download Now
+								</a>
+							</div>
+
+							<div id="share-buttons" align="center">
+							
+								<a href="mailto:developers.blackbrowser@gmail.com">
+									<img src="https://icon-library.com/images/red-email-icon-png/red-email-icon-png-27.jpg" alt="Email" />
+								</a>
+					
+								<a href="https://t.me/blackbrowser" target="_blank">
+									<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Telegram_logo.svg/600px-Telegram_logo.svg.png" alt="Telegram" />
+								</a>
+					
+								<a href="https://www.youtube.com/channel/UCvLJAVIXT_AVIj1gXq4P5xw" target="_blank">
+									<img src="https://www.youtube.com/about/static/svgs/icons/brand-resources/YouTube_icon_full-color.svg?cache=f2ec7a5" alt="Youtube" />
+								</a>
+					
+								<a href="https://twitter.com/Black_Browser" target="_blank">
+									<img src="https://utilitypeopleuk.com/wp-content/uploads/2017/06/twitter-icon-circle-blue-logo-preview.png" alt="Twitter" />
+								</a>
+					
+							</div>
+							
+						</div>
+						<div class="mockup-container">
+							<div class="mockup-bg">
+							</div>
+							<img 
+							class="device-mockup" 
+							src="https://firebasestorage.googleapis.com/v0/b/blackbrowser-androidapp.appspot.com/o/Plugin%20icon%20-%201icon.png?alt=media&token=c04f1c73-3891-401e-bf6f-1386f77bc367" 
+							alt="Hero">
+						</div>
+                    </div>
+                </div>
+            </section>
+
+			<section class="features-extended section">
+                <div class="features-extended-inner section-inner">
+					<div class="features-extended-wrap">
+						<div class="container">
+							<div class="feature-extended">
+								<div class="feature-extended-image">
+									<div class="mockup-bg">
+										<img src="dist/images/iphone-feature-bg-01.svg" alt="Feature 01 illustration">
+									</div>
+									<img 
+									class="device-mockup is-revealing"
+									src="https://firebasestorage.googleapis.com/v0/b/web-app-f327f.appspot.com/o/BlackBrowser%2F1.png?alt=media&token=7592b422-edfb-410f-af9f-3f62b73ee0a4"
+									 alt="Feature 01">
+								</div>
+								<div class="feature-extended-body is-revealing">
+									<h3 class="mt-0 mb-16">Simple UI.</h3>
+									<p class="m-0">Simple UI provides a more personalized user experience, making the entire interface more clear, 
+										balanced, aesthetically pleasing, simple and stylish with good usability and helps you to fast browsing.</p>
+								</div>
+							</div>
+							<div class="feature-extended">
+								<div class="feature-extended-image">
+									<div class="mockup-bg">
+										<img src="dist/images/iphone-feature-bg-02.svg" alt="Feature 02 illustration">
+									</div>
+									<img 
+									class="device-mockup is-revealing" 
+									src="https://firebasestorage.googleapis.com/v0/b/web-app-f327f.appspot.com/o/BlackBrowser%2F2-min.png?alt=media&token=ae460256-d414-4b37-b2ec-172687f05231" 
+									alt="Feature 02">
+								</div>
+								<div class="feature-extended-body is-revealing">
+									<h3 class="mt-0 mb-16">Smart controls.</h3>
+									<p class="m-0">Smart ad blocker that removes most of intrusive ads, Cookies whitelist, Remote content, Favorite website, Custom search engine
+										 and Data saver</p>
+								</div>
+							</div>
+							<div class="feature-extended">
+								<div class="feature-extended-image">
+									<div class="mockup-bg">
+										<img src="dist/images/iphone-feature-bg-03.svg"
+										 alt="Feature 03 illustration">
+									</div>
+									<img 
+									class="device-mockup is-revealing" 
+									src="https://firebasestorage.googleapis.com/v0/b/web-app-f327f.appspot.com/o/BlackBrowser%2F3-min.png?alt=media&token=5a1993b5-5134-4375-9ede-5028b3cea3ba"
+									alt="Feature 03">
+								</div>
+								<div class="feature-extended-body is-revealing">
+									<h3 class="mt-0 mb-16">Smart Save.</h3>
+									<p class="m-0">Adding website to the home screen or bookmarks screen will help in fast and quick 
+										access to website and the smart save as pdf feature helps you to take complete website snapshoot and saves as pdf without lossing quality.
+									</p>
+								</div>
+							</div>
+							<div class="feature-extended">
+								<div class="feature-extended-image">
+									<div class="mockup-bg">
+										<img src="dist/images/iphone-feature-bg-04.svg" alt="Feature 04 illustration">
+									</div>
+									<img 
+									class="device-mockup is-revealing" 
+									src="https://firebasestorage.googleapis.com/v0/b/web-app-f327f.appspot.com/o/BlackBrowser%2F4-min.png?alt=media&token=a67f0f05-3e60-44a6-8af1-1f0079496a1a" 
+									alt="Feature 04">
+								</div>
+								<div class="feature-extended-body is-revealing">
+									<h3 class="mt-0 mb-16">Pick your theme.</h3>
+									<p class="m-0">Black browser comes with 4 different options of theme System, Light, Dark and Amoled themes.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+                </div>
+            </section>
+        </main>
+
+    </div>
+
+   
+
+    
+
+
+		<footer class="site-footer">
+			<div class="footer-particles-container">
+				<canvas id="footer-particles"></canvas>
+			</div>
+			<div class="site-footer-top">
+				<section class="cta section text-light" >
+					<div class="container-sm">
+						<div class="cta-inner section-inner">
+							<div class="cta-header text-center">
+								<h2 class="section-title mt-0">Download Now</h2>
+								<p class="section-paragraph">Get the Black Browser app from play store and Enjoy the safe and fast browsing.</p>
+								<div class="cta-cta">
+									<a class="button button-primary button-wide-mobile" 
+									href="https://play.google.com/store/apps/details?id=com.saigopal.browser">Download Now</a>
+									<p>
+										<div class="cta-cta">
+											<a class="button button-primary button-wide-mobile" href="privacypolicy.html" target="_blank" >Privacy Policy</a>
+											
+											<a class="button button-primary button-wide-mobile" href="Termsandconditions.html" target="_blank">Terms and Conditions</a>
+										</div>	
+										  
+									</p>
+									
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+			</div>
+			<div class="site-footer-bottom">
+				<div class="container">
+					<div class="site-footer-inner">
+						<div class="brand footer-brand">
+							<a href="#">
+								<img src="dist/images/logo.svg" alt="logo">
+							</a>
+						</div>
+						
+						<ul class="footer-links list-reset">
+							<li>
+								<a href=/contactus.html>Contact</a>
+							</li>
+								<li class="footer__link">
+									<a href=/privacypolicy.html>Privacy</a>
+								</li>
+								<li class="footer__link">
+									<a href=/Termsandconditions.html>Terms and conditions </a>
+								</li>
+								<li class="footer__link">
+									<a href="https://www.github.com/sai123gopal" targe="_blank">GitHub</a>
+								</li>
+								<li class="footer__link">
+									<a href="https://www.linkedin.com/in/sai-gopal-384743186/" targe="_blank">LinkedIn</a>
+								</li>
+
+							
+						</ul>
+					</div>
+				</div>
+			</div>
+        </footer>
+	</div>
+	
+	<script src="https://www.gstatic.com/firebasejs/8.0.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.0.1/firebase-analytics.js"></script>
+
+<script>
+  var firebaseConfig = {
+    apiKey: "AIzaSyC6B_Ys2y4bxq3hW0-OJ21rRfP7fo2taik",
+    authDomain: "blackbrowser-androidapp.firebaseapp.com",
+    databaseURL: "https://blackbrowser-androidapp.firebaseio.com",
+    projectId: "blackbrowser-androidapp",
+    storageBucket: "blackbrowser-androidapp.appspot.com",
+    messagingSenderId: "89938933166",
+    appId: "1:89938933166:web:0d6d9ace14675d8db2843f",
+    measurementId: "G-3KGKPQP3D1"
+  };
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+
+    <script src="dist/js/main.min.js"></script>
+</body>
+</html>
